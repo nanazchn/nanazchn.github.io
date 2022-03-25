@@ -1,0 +1,119 @@
+:root {
+    --font: 'Poppins', sans-serif;
+    --choco:#a16f5e;
+    --cream:#f2c48d;
+    --hover:#bf8851;
+}
+
+a {
+    color:var(--choco);
+}
+
+a:hover {
+    color:var(--hover);
+}
+
+a:active {
+    color:var(--choco);
+}
+
+body {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+footer {
+    color:var(--choco);
+    text-align: center;
+    font-family: var(--font);
+}
+
+span {
+    display:block;
+    word-wrap:break-word;
+}
+
+.link {
+    display: block;
+    padding: 20px;
+    margin-bottom: 30px;
+    color:var(--choco);
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: solid var(--choco) 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: var(--hover);
+    color: var(--cream);
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+    border: solid var(--choco) 3px;
+}
+
+#links {
+    max-width: 1000px;
+    width: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+#social-icons {
+    text-align: center;
+}
+
+#social-icons a {
+    color: var(--choco);
+    text-decoration: none;
+    font-size:26px;
+    padding:12px 17px;
+    background:transparent;
+    font-weight:bold;
+    margin:0px 8px;
+}
+
+#social-icons a:hover {
+    color: var(--cream);
+    text-decoration: none;
+    font-size:26px;
+    background:transparent;
+    font-weight:bold;
+    margin:0px 8px;
+    transition: 0.35s;
+}
+
+#udesc {
+    color: var(--choco);
+    font-family: var(--font);
+    font-size: 13px;
+    font-weight: medium;
+    text-align: center;
+    text
+}
+
+#user {
+    height: 90px;
+}
+
+#uname {
+    width: 100%;
+    color: var(--choco);
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
